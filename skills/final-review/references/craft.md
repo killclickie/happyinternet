@@ -40,6 +40,7 @@ How good writing works. These are defaults: a user's style guide overrides any o
 
 ## Say it plainly
 
+- Let the fact carry the sentence. When the evidence is the strongest thing in a line, make it the subject and follow with what the author is doing about it: "A third of last year's customers came from the referral program, which I'm working to grow," not "My first project: rebuilding the referral program that brought in a third of last year's customers."
 - Declarative sentences: subject, verb, object. "We cut onboarding from nine days to four," not "we were able to successfully reduce the amount of time onboarding takes."
 - Strong, specific verbs: led, built, cut, shipped, wrote. Not "helped with," "was involved in," "supported," "partnered on" when the author did the thing.
 - One verb over a phrase: "exceeds," not "ends up being far greater than."
@@ -61,6 +62,8 @@ How good writing works. These are defaults: a user's style guide overrides any o
 ## Length
 
 - Every sentence advances understanding or enables action. Cut the rest.
+- Every word and phrase earns its place too. The test: delete it and reread. If the meaning, the precision and the voice survive, it stays deleted. This catches connective padding ("With that in mind," "That said," "As mentioned," "Building on this"), scope framing ("Across all of it," "In every case"), restated setup and empty qualifiers.
+- Watch hardest for phrases that point back at an earlier idea ("this," "that," "it," "all of it," "the above") instead of adding a new one. They feel like cohesion and carry no meaning. If a back-reference is needed, replace the pronoun with the concrete noun and make the sentence active.
 - Length follows content. Padding thin content and compressing dense content are both failures.
 - Say each thing once.
 

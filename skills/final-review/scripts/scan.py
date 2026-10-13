@@ -113,7 +113,11 @@ PATTERNS = [
      re.compile(r"\b(here'?s the (thing|kicker|deal|catch)|plot twist)\b", re.I)),
     ("Vague back-reference", "Restate the concrete noun, or cut the sentence.",
      re.compile(r"(^|[.!?]\s+)(that|this)\s+(kind|sort|type|moment|combination|feeling|shift|is why|is what|is exactly|right there)\b", re.I)),
-    ("Sweeping scope phrase", "Cut it. If scope matters, state it actively with the concrete noun.",
+    ("Back-reference filler", "Delete it and reread. If meaning survives, leave it out; otherwise use the concrete noun.",
+     re.compile(r"(^|[.!?]\s+)(with (that|this|all this) in mind|that said|having said that|given (all )?(this|that|the above)|building on (this|that)|as (mentioned|noted|discussed|outlined)( above| earlier| before)?|to that end|on that note|with (this|that) in place|all of this means|which brings (us|me) to|this is where)\b", re.I)),
+    ("Colon-label setup", "Write the full sentence, usually with the fact as the subject.",
+     re.compile(r"(^|[.!?]\s+)(my|our|the|their|his|her|your)\s+(\w+\s+){0,2}(project|goal|result|plan|focus|takeaway|lesson|answer|fix|bet|mission|priority|reason|outcome|secret|move|ask)\s*:\s+\S", re.I)),
+    ("Back-reference filler", "Cut it. If scope matters, state it actively with the concrete noun.",
      re.compile(r"\b(across|through|throughout|in|beyond|above|underneath|behind|at the (heart|core|end) of)\s+(it all|all of (it|this|that|these|them)|all this|all that|everything|each of (these|them)|every (step|one of these))\b", re.I)),
 ]
 

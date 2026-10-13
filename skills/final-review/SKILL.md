@@ -66,7 +66,7 @@ Do **not** give it the drafting conversation, your reasoning, or earlier version
 4. **Voice and AI tells.** Resolve every scan hit and anything else in `ai-tells.md`. A pattern stays only if it's the plainest way to say the thing; log why.
 5. **Channel.** Every rule in the channel's section of `channels.md`, including SEO/AEO rules if that mode is on.
 6. **User's style guide and brief.** Voice, required and banned terms, CTA convention, mechanics, compliance.
-7. **Line edit.** Plain language, mechanics, final cut for length. Read it aloud once, end to end.
+7. **Line edit.** Plain language, mechanics, final cut for length. Test every word and phrase: delete it and reread; if the meaning survives, it stays deleted. Read it aloud once, end to end.
 
 **Edit discipline.**
 - Keep the author's register, point of view and formatting. Don't add bold, headings, emoji or em dashes the original lacked unless the channel calls for them.

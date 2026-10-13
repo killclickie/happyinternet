@@ -30,6 +30,8 @@ I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts c
 - Setup questions and cliffhangers: "The catch?" "Honestly?" "Here's the thing:"
 - Humble brags and announcement inflation: "Humbled to announce." "I don't take that for granted."
 - Performed epiphanies: "That's when it hit me."
+- Filler that points back at earlier ideas without adding meaning: "Across all of it," "With that in mind," "As mentioned above"
+- Colon-label setups standing in for sentences: "My first project: ..." "The result: ..."
 - Stacked negations and runs of dramatic fragments: "No delays. No excuses. No limits."
 - LinkedIn broetry, engagement bait ("Agree?"), hashtag piles and emoji bullets
 - Em dashes, filler adverbs, hedges and the usual AI vocabulary (delve, leverage, seamless, unlock)
@@ -51,7 +53,7 @@ Before:
 
 After:
 
-> I've joined Acme as Head of Growth. My first project: rebuilding the referral program that brought in a third of last year's customers.
+> I've joined Acme as Head of Growth. A third of last year's customers came from their referral program, which I'm working to put a bigger flywheel on.
 
 (The detail in the "after" comes from the author. Slop Stopper asks for it rather than making it up.)
 
