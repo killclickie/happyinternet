@@ -1,8 +1,8 @@
 {
   "name": "slop-stopper",
   "displayName": "Slop Stopper",
-  "version": "1.2.2",
-  "description": "Clean-eyes final review for anything you're about to publish: LinkedIn posts, emails, blogs, webpages, reports, proposals. An independent reviewer strips AI tells and formulaic writing, tightens the draft for its real reader, and runs a pass/fail gate on facts, numbers and links. Never invents.",
+  "version": "1.2.3",
+  "description": "Stop sounding like everyone else on the internet. We deserve better. Slop Stopper is a final review for anything you publish or send: it removes AI tells and formulaic writing, improves structure and headings, tightens the draft for its real reader, and checks facts, numbers and links. Works on LinkedIn posts, emails, blogs, webpages, reports and proposals. Never invents.",
   "author": {
     "name": "Caroline Cadwell"
   },

@@ -1,6 +1,8 @@
 # Slop Stopper
 
-A final review for anything you're about to publish or send: a LinkedIn post, an email, a blog post, a webpage, a report, a proposal. An independent reviewer reads your draft with clean eyes, strips the AI tells and formulaic structures, tightens it for its real reader, and checks facts, numbers and links before you hit publish. You get back the improved draft and a short summary of what changed.
+Stop sounding like everyone else on the internet. We deserve better.
+
+Slop Stopper is a final review for anything you're about to publish or send: a LinkedIn post, an email, a blog post, a webpage, a report, a proposal. An independent reviewer reads your draft with clean eyes, removes AI tells and formulaic writing, improves structure and headings, tightens it for its real reader, and checks facts, numbers and links before you hit publish. You get back the improved draft and a short summary of what changed.
 
 ## Why I built a plugin to stop AI slop
 
