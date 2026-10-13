@@ -1,6 +1,6 @@
 ---
 name: final-review
-description: Clean-eyes final review of a draft that already exists (LinkedIn or other social post, email, blog post, webpage, report, proposal, essay). An independent reviewer audits it against its reader, purpose, channel and any style guide or brief, strips AI tells and formulaic writing, edits it to land harder with the real reader, then runs a pass/fail gate on facts, numbers, links and render. Use before anything ships. Not for drafting from scratch.
+description: Final review that strips AI tells and formulaic writing from any draft, tightens it for its real reader, then checks facts, numbers and links before it ships. Works on LinkedIn and other social posts, emails, blog posts, webpages, reports, proposals and essays. An independent reviewer edits against the reader, channel and any style guide or brief. Use on a draft that already exists, not to write from scratch.
 ---
 
 # Final Review
