@@ -1,11 +1,15 @@
 ---
 name: final-review
-description: Final review that strips AI tells and formulaic writing from any draft, tightens it for its real reader, then checks facts, numbers and links before it ships. Works on LinkedIn and other social posts, emails, blog posts, webpages, reports, proposals and essays. An independent reviewer edits against the reader, channel and any style guide or brief. Use on a draft that already exists, not to write from scratch.
+description: Final review that strips AI tells and formulaic writing from any draft, tightens it for its real reader, then checks facts, numbers and links before it ships. Works on LinkedIn and other social posts, emails, blog posts, webpages, reports, proposals and essays. An independent reviewer edits against the reader, channel and any style guide or brief. Also use its rules as guidance while drafting new content, then review the result before it ships.
 ---
 
 # Final Review
 
 Returns an **improved draft** plus a short review summary, not a list of comments.
+
+**Two ways to use it.**
+- **Review a draft** that already exists: run Steps 1 to 5 below.
+- **Draft new content**: follow `guardrails.md`, `craft.md`, `ai-tells.md` and the channel's section of `channels.md` as writing rules from the first sentence. When the draft is done, run Steps 2 to 5 on it so an independent reviewer checks the result.
 
 ## Files
 

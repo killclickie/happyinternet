@@ -70,7 +70,7 @@ After:
 
 ## Run a review on any draft
 
-Say "run a final review on this" and paste, attach or link your draft. Or run `/slop-stopper:final-review`. Tell it where the piece is going (LinkedIn, an email, a client report) for the sharpest result.
+Say "run a final review on this" and paste, attach or link your draft. Or run `/slop-stopper:final-review`. You can also point Claude at it while drafting something new ("write this LinkedIn post using Slop Stopper's rules"); it writes to the same rules, then reviews its own draft with clean eyes. Tell it where the piece is going (LinkedIn, an email, a client report) for the sharpest result.
 
 Your own style guide always wins over the defaults here, except for the integrity rules: it never invents.
 
