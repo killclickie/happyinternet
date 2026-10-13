@@ -10,7 +10,9 @@ AI is still useful for the heavy lifting on a post, a proposal or a report. Slop
 
 My goal is a happier internet to read and engage with.
 
-Caroline Cadwell
+## About me
+
+I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts college, wrote for the San Francisco Chronicle and taught at Toulouse Business School. I've worked in software since 2007, first in sales, then marketing, then as a founder. Across all of it, I care about concise, effective writing.
 
 ## What it does
 
