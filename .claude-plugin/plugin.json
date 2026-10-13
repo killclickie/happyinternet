@@ -1,0 +1,13 @@
+{
+  "name": "slop-stopper",
+  "displayName": "Slop Stopper",
+  "version": "1.0.0",
+  "description": "Clean-eyes final review for anything you're about to publish: LinkedIn posts, emails, blogs, webpages, reports, proposals. An independent reviewer strips AI tells and formulaic writing, tightens the draft for its real reader, and runs a pass/fail gate on facts, numbers and links. Never invents.",
+  "author": {
+    "name": "Caroline Cadwell"
+  },
+  "homepage": "https://github.com/killclickie/happyinternet",
+  "repository": "https://github.com/killclickie/happyinternet",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "review", "linkedin", "ai-tells", "style", "copyediting", "proofreading"]
+}

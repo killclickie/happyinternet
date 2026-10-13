@@ -1,0 +1,14 @@
+{
+  "name": "happyinternet",
+  "description": "Plugins for a happier internet to read and engage with.",
+  "owner": {
+    "name": "Caroline Cadwell"
+  },
+  "plugins": [
+    {
+      "name": "slop-stopper",
+      "source": "./",
+      "description": "Clean-eyes final review that strips AI tells and formulaic writing from any draft before it ships."
+    }
+  ]
+}
