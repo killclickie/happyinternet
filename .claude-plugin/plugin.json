@@ -8,6 +8,15 @@
   },
   "homepage": "https://github.com/killclickie/happyinternet",
   "repository": "https://github.com/killclickie/happyinternet",
-  "license": "MIT",
-  "keywords": ["writing", "editing", "review", "linkedin", "ai-tells", "style", "copyediting", "proofreading"]
+  "license": "LicenseRef-MIT-Commons-Clause",
+  "keywords": [
+    "writing",
+    "editing",
+    "review",
+    "linkedin",
+    "ai-tells",
+    "style",
+    "copyediting",
+    "proofreading"
+  ]
 }

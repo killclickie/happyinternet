@@ -92,4 +92,4 @@ Spotted a tell it misses, or a false positive? Open an issue with the sentence a
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT with the Commons Clause. Use it, change it and fork it, for personal or work writing. You may not sell it, or sell a product or service whose value comes substantially from it. See [LICENSE](LICENSE).
