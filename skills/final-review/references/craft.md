@@ -64,9 +64,24 @@ How good writing works. These are defaults: a user's style guide overrides any o
 - Length follows content. Padding thin content and compressing dense content are both failures.
 - Say each thing once.
 
+## Titles, headings and section labels
+
+Applies to every title, heading, subheading, section break, table caption, callout label, slide title and email subject line in every piece.
+
+- Each one names the specific content beneath it. A reader scanning only the headings learns what the piece says, not just what kinds of sections it has.
+- The test: could this heading sit unchanged on a section of a different document? If yes, it's generic. Rewrite it from the section's own content.
+- Generic labels to rewrite: "Overview," "Introduction," "Background," "What it does," "How it works," "Features," "Benefits," "Key takeaways," "The opportunity," "Why it matters," "Next steps," "Conclusion," "Summary," "About," "Getting started."
+- Examples:
+  - "What it does" → "Five steps from draft to publish-ready"
+  - "Key takeaways" → "Churn fell 12% after the onboarding redesign"
+  - "Next steps" → "Three decisions needed by 30 June"
+  - "About me" → "Former reporter, now building sales software"
+- Cut vague evocative lines too ("When the to-do list stops being yours"). Specific beats clever.
+- Short functional labels stay when readers look for them by name and the content is standard: "Install," "License," "Contact," "FAQ." Even then, prefer a specific version when it fits ("Install in Claude Code").
+- If a section's content is too mixed to name specifically, the section is doing too much. Split it.
+
 ## Structure in formatted pieces
 
-- Headings state the takeaway. Not labels ("Key takeaways," "The opportunity," "Next steps") and not vague evocative lines ("When the to-do list stops being yours"). A reader should know what the section claims from the heading alone.
 - No thin or orphan sections. Merge or cut stubs.
 - Each section opens with a full sentence that connects to what came before and ends on a point, not a trail-off.
 - Use lists, tables and checklists where they help the reader scan or compare, not as decoration. One plain line before every table says what it shows.

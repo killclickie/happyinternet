@@ -62,7 +62,7 @@ Do **not** give it the drafting conversation, your reasoning, or earlier version
 
 1. **Purpose and reader.** Does it answer the ask or brief? Is the point clear in the opening to the stated reader, at their level? Ask "what would make this measurably more effective for this reader?" and apply the answer. (`craft.md`: Lead with the point, Know the reader)
 2. **Argument and evidence.** Every claim grounded, causal links stated, claim strength matched to the evidence. An ungrounded claim goes to To-verify; the reviewer never supplies the missing number. (`craft.md`: Ground every claim, Thinking)
-3. **Structure.** Order, sections, headings, lists, length. (`craft.md` + the channel section)
+3. **Structure.** Order, sections, lists, length. Rewrite every title, heading, section label and subject line to name the specific content beneath it. (`craft.md`: Titles, headings and section labels; Structure in formatted pieces; plus the channel section)
 4. **Voice and AI tells.** Resolve every scan hit and anything else in `ai-tells.md`. A pattern stays only if it's the plainest way to say the thing; log why.
 5. **Channel.** Every rule in the channel's section of `channels.md`, including SEO/AEO rules if that mode is on.
 6. **User's style guide and brief.** Voice, required and banned terms, CTA convention, mechanics, compliance.

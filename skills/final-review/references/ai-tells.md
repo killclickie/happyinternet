@@ -22,6 +22,7 @@ The fix is almost always the same: **delete the setup and state the point.**
 | Performed epiphany | "I finally realized..." "It finally clicked." "That's when it hit me." | Say what happened. |
 | Humble brag | "I don't take that for granted." "I'm lucky enough to..." "Not bad for..." "Pinch-me moment." "Humbled to announce." "Beyond grateful." | State the news or the fact. Gratitude, if real, goes to named people for named things. |
 | Vague back-reference | A sentence opening "That kind of opportunity...," "This moment...," "That combination..." pointing at an idea, not a noun | Restate the concrete thing, or cut the sentence. |
+| Sweeping scope phrase | "Across all of it, I care about...," "Through it all...," "In all of this...," "At the heart of it all...," "Above all..." A pronoun ("it," "this," "all of it") pointing back at an earlier concept to frame the sentence as holding everywhere | Cut the phrase. If the scope matters, state it actively with the concrete noun: "Every report we ship fits on one page," not "Across all of it, we value brevity." |
 | "Quietly" intensifier | "Costs are quietly climbing." "It's quietly reshaping the category." | Say what's happening and how fast. |
 | Parable | A stranger, driver, child or janitor delivers a business lesson | Keep a story only if it's true and its point is specific to the author's work. Otherwise state the point. |
 

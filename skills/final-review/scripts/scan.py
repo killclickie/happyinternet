@@ -113,7 +113,19 @@ PATTERNS = [
      re.compile(r"\b(here'?s the (thing|kicker|deal|catch)|plot twist)\b", re.I)),
     ("Vague back-reference", "Restate the concrete noun, or cut the sentence.",
      re.compile(r"(^|[.!?]\s+)(that|this)\s+(kind|sort|type|moment|combination|feeling|shift|is why|is what|is exactly|right there)\b", re.I)),
+    ("Sweeping scope phrase", "Cut it. If scope matters, state it actively with the concrete noun.",
+     re.compile(r"\b(across|through|throughout|in|beyond|above|underneath|behind|at the (heart|core|end) of)\s+(it all|all of (it|this|that|these|them)|all this|all that|everything|each of (these|them)|every (step|one of these))\b", re.I)),
 ]
+
+GENERIC_HEADINGS = {
+    "overview", "introduction", "intro", "background", "what it does", "how it works",
+    "features", "key features", "benefits", "key benefits", "key takeaways", "takeaways",
+    "the opportunity", "the problem", "the solution", "why it matters", "why this matters",
+    "next steps", "conclusion", "summary", "about", "about me", "about us", "getting started",
+    "what it catches", "what's inside", "example", "examples", "details", "context",
+    "the request", "what happens next", "at a glance", "highlights", "results", "use", "usage",
+}
+HEADING = re.compile(r"^\s{0,3}(#{1,6})\s+(.+?)\s*#*\s*$")
 
 EM_DASH = re.compile(r"—|\s--\s|\s–\s")
 UNICODE_STYLED = re.compile(r"[\U0001D400-\U0001D7FF]")
@@ -173,6 +185,12 @@ def scan(text, channel):
         for cat, fix, rx in PATTERNS:
             for m in rx.finditer(line):
                 hits.append((i, cat, m.group(0).strip(), fix))
+        h = HEADING.match(line)
+        if h:
+            title = re.sub(r"[*_`:]", "", h.group(2)).strip().lower()
+            if title in GENERIC_HEADINGS or len(title.split()) <= 1:
+                hits.append((i, "Generic heading", h.group(2).strip(),
+                             "Name the specific content beneath it. Would it fit a section of another document unchanged? Rewrite."))
         for m in EM_DASH.finditer(line):
             ctx = line[max(0, m.start() - 25): m.end() + 25].strip()
             hits.append((i, "Em dash", ctx, "Use a colon, comma, period or parentheses."))

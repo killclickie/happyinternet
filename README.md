@@ -2,7 +2,7 @@
 
 A final review for anything you're about to publish or send: a LinkedIn post, an email, a blog post, a webpage, a report, a proposal. An independent reviewer reads your draft with clean eyes, strips the AI tells and formulaic structures, tightens it for its real reader, and checks facts, numbers and links before you hit publish. You get back the improved draft and a short summary of what changed.
 
-## Why I made this
+## Why I built a plugin to stop AI slop
 
 I can't bear to read any more poor writing: the formulaic structures, the "it's not X, it's Y" reframes, the over-dramatized humble brags that AI cranks out for people every day.
 
@@ -10,11 +10,11 @@ AI is still useful for the heavy lifting on a post, a proposal or a report. Slop
 
 My goal is a happier internet to read and engage with.
 
-## About me
+## Caroline Cadwell: writer, teacher, software founder
 
-I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts college, wrote for the San Francisco Chronicle and taught at Toulouse Business School. I've worked in software since 2007, first in sales, then marketing, then as a founder. Across all of it, I care about concise, effective writing.
+I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts college, wrote for the San Francisco Chronicle and taught at Toulouse Business School. I've worked in software since 2007, first in sales, then marketing, then as a founder. I care about concise, effective writing.
 
-## What it does
+## Five steps from draft to publish-ready
 
 1. **Intake, scaled to the piece.** For a short post or email it infers the channel, reader and goal and tells you what it assumed. For long or high-stakes pieces it asks once for your style guide, audience notes or original brief. All optional.
 2. **Scan.** A small script flags known AI tells and formula patterns line by line, plus channel limits (LinkedIn's 3,000 characters and the preview before "see more," X, Threads, Bluesky, Instagram).
@@ -24,7 +24,7 @@ I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts c
 
 **What it never does:** invent facts, numbers, quotes or credentials; add emotions or details you didn't state; upgrade "working toward" into "done"; or quietly change your message. Anything it can't confirm goes on the To-verify list.
 
-## What it catches
+## AI tells it flags, from "it's not X, it's Y" to engagement bait
 
 - Contrast reframes: "It's not X, it's Y." "This isn't about X."
 - Setup questions and cliffhangers: "The catch?" "Honestly?" "Here's the thing:"
@@ -37,7 +37,7 @@ I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts c
 
 It also brings general craft rules: lead with the point, write up to a knowledgeable reader, ground every claim, name the tradeoff, keep asks specific, cut every sentence that doesn't earn its place. Channel rules cover LinkedIn posts and profiles, other social platforms, email, web and SEO/AEO content, reports and formatted documents.
 
-## Example
+## Before and after: a LinkedIn job announcement
 
 Before:
 
@@ -55,7 +55,7 @@ After:
 
 (The detail in the "after" comes from the author. Slop Stopper asks for it rather than making it up.)
 
-## Install
+## Install in Claude Code or the Claude apps
 
 **Claude Code**
 
@@ -66,13 +66,13 @@ After:
 
 **Claude apps:** install Slop Stopper from the plugin directory once it's listed.
 
-## Use
+## Run a review on any draft
 
 Say "run a final review on this" and paste, attach or link your draft. Or run `/slop-stopper:final-review`. Tell it where the piece is going (LinkedIn, an email, a client report) for the sharpest result.
 
 Your own style guide always wins over the defaults here, except for the integrity rules: it never invents.
 
-## What's inside
+## Files: one skill, four rule sets, one scanner
 
 ```
 skills/final-review/
@@ -84,14 +84,14 @@ skills/final-review/
   scripts/scan.py           the pattern scanner (Python 3 standard library)
 ```
 
-## Data handling
+## Your drafts stay in your Claude session
 
 Slop Stopper runs entirely inside your Claude session. The scanner reads the draft file it's given and prints results; it makes no network calls and stores nothing. The plugin connects to no outside services.
 
-## Contributing
+## Report a missed tell or a false positive
 
 Spotted a tell it misses, or a false positive? Open an issue with the sentence and what it should have done. Pattern additions go in `references/ai-tells.md` and `scripts/scan.py` together.
 
-## License
+## License: MIT with the Commons Clause (use and fork freely, don't sell)
 
 MIT with the Commons Clause. Use it, change it and fork it, for personal or work writing. You may not sell it, or sell a product or service whose value comes substantially from it. See [LICENSE](LICENSE).
