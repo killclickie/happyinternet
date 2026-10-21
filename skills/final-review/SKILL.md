@@ -84,7 +84,7 @@ Run on the revised draft. First rerun `scan.py` on it: edits introduce tells too
 | Check | Pass condition |
 |---|---|
 | Fact and claim integrity | Every stat, quote, spec and claim traces to the draft, its sources, the user's references or the user (`guardrails.md`) |
-| Faithful to the author | No detail, emotion or credential added; tense, completion status and claim strength unchanged |
+| Faithful to the author | No detail, emotion or credential added; tense, completion status, claim strength and scope unchanged; no "everything" or "every" the author didn't write |
 | Numbers, math, dates | Recomputed; comparison periods and dates consistent |
 | Links, CTA, placeholders | No dummy URLs, bracketed placeholders or broken merge tokens in the body; CTA present and descriptive where the channel needs one |
 | Compliance | Required disclosures present for regulated topics (finance, health, legal, real estate and similar) |

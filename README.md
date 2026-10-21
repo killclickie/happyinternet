@@ -32,6 +32,7 @@ I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts c
 - Setup questions and cliffhangers: "The catch?" "Honestly?" "Here's the thing:"
 - Humble brags and announcement inflation: "Humbled to announce." "I don't take that for granted."
 - Performed epiphanies: "That's when it hit me."
+- Vague consequences and inflated scope: "That shapes how we work." "It changes everything."
 - Filler that points back at earlier ideas without adding meaning: "Across all of it," "With that in mind," "As mentioned above"
 - Colon-label setups standing in for sentences: "My first project: ..." "The result: ..."
 - Stacked negations and runs of dramatic fragments: "No delays. No excuses. No limits."
