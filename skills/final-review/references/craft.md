@@ -19,23 +19,37 @@ How good writing works. These are defaults: a user's style guide overrides any o
 - Know who the asset is for: prospects, customers, colleagues, the public. Internal notes stay out of public copy.
 - The test: would a smart, busy person with no context understand it and know what to do next? If not, restructure before wordsmithing.
 
-## Assumed context
+## Clear to the intended reader
 
-A sentence that leans on context the reader doesn't have reads as nonsense, however polished it sounds. AI drafts produce these constantly: they assume the reader knows a person, project, event or earlier step that never appears on the page.
+The reader the author is writing for may know the field, the jargon and the people. That excuses unexplained terms; it doesn't excuse unclear sentences. An expert still stalls on a line that skips its subject, hides its mechanism or ends in a vague abstraction.
 
-- **Only the author sets what the reader already knows.** Shared context counts when the user says so (in the brief, the stated audience or the conversation) or when the draft shows it (a newsletter to friends who know "Nash," an internal update to a team that knows the project codename). Never assume shared context on the author's behalf.
-- **Read every sentence as the stated reader**, with only the draft and the user's references in hand. Mark each one you have to reread, or can't follow without guessing.
-- **What to flag:**
-  - An unintroduced name, project, event, acronym or "the" thing ("the migration," "the incident," "after the pivot") the reader hasn't been told about.
-  - A leap: a conclusion that depends on a step or assumption that isn't stated.
-  - A fragment or compressed sentence that doesn't parse on first read ("Faster, then not." "Same story with ops.").
-  - A sentence that sounds meaningful but adds nothing, or only restates the one before it.
-- **What to do:**
-  - The missing context is in the draft, its sources or the user's references: restore it inline with the lightest edit (a short clause or appositive), or move the sentence after the context it depends on.
-  - The meaning is clear but the form is broken: rewrite the fragment as a full sentence.
-  - The sentence adds nothing: cut it (delete and reread).
-  - The missing context isn't available: never invent it. Leave the sentence and list it under **Needs context** in the summary, with the specific question the author has to answer ("Who is Mara, for a reader outside the team?").
-- When it's unclear whether the author or an AI wrote the assumption, flag it rather than cut it. The author's deliberate shorthand for a reader who shares it stays.
+**Audience knowledge.** Only the author sets what the reader already knows: through the brief, the stated audience, the conversation, or what the draft makes obvious (an industry post can say IBAN, SEPA or 4K without defining them; a newsletter to friends can say "Nash"). Never assume shared context on the author's behalf, and never flag a term or name the stated reader plainly knows.
+
+**The test.** Read each sentence as the intended reader, once, at normal speed. Flag it if that reader couldn't restate it in their own words on first read, or if cutting it would lose nothing.
+
+**What to flag**, from most to least common in AI drafts:
+
+1. **Unanchored frame shift.** A sentence opens on a new subject without naming the setting it belongs to, so the reader has to work out what it's about. Short dramatic lines make this worse.
+   - Before: "Open-plan offices cut real-estate costs by 30%. A phone call carries 15 metres."
+   - Problem: nothing says the phone call is a colleague's, inside that office.
+   - After: "Open-plan offices cut real-estate costs by 30%. In one, a colleague's phone call carries 15 metres."
+2. **Compressed mechanism.** A claim or instruction names an outcome and skips how it happens. Often an abstract thing is treated as a physical object that can be moved, put or handed over ("put the data in their hands," "move the conversation to the phone").
+   - Before: "Put the returns policy in the box."
+   - Problem: printed in the box, a QR code, a card? The reader has to guess.
+   - After, using the mechanism the draft or sources give: "Print the returns policy on the packing slip."
+   - If no source gives the mechanism, don't supply one: list it under Needs context.
+3. **Vague tail.** A trailing clause that sounds like a benefit but ends in a generic abstraction: "the business process behind it," "the bigger picture," "the customer journey," "what matters most," "the people behind the work." Test: could this phrase appear in any company's copy? If yes, it's carrying nothing.
+   - Before: "Each refund is tagged with its order number and links to the customer journey behind it."
+   - After: cut the tail ("Each refund is tagged with its order number.") or replace it with the specific outcome the draft already states. Never invent one.
+4. **Unintroduced specifics** the stated reader wouldn't know: a person, project, event or "the" thing ("the migration," "after the pivot") that never appears earlier on the page.
+5. **A leap**: a conclusion that depends on a step the draft never states.
+6. **Fragments that don't parse** on first read ("Same story with ops."), and sentences that only restate the one before.
+
+**What to do:**
+- The fix uses only what's in the draft, its sources or the user's references: name the setting, state the mechanism, move the sentence after what it depends on, or rewrite the fragment as a sentence.
+- A clause that carries nothing gets cut (delete and reread).
+- When the fix needs a fact nobody supplied, never invent it. Leave the sentence and list it under **Needs context** with the specific question ("How does the returns policy reach the customer: a printed slip, a QR code, an email?").
+- When it's unclear whether the author or an AI wrote a shorthand, flag it rather than cut it.
 
 ## Ground every claim
 

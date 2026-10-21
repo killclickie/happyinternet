@@ -109,6 +109,8 @@ PATTERNS = [
      re.compile(r"\b(shap|chang|defin|driv|transform|influenc|inform|affect|impact|touch|color|colour|underpin|redefin|reshap)\w*\s+(everything|it all|all of (it|this|that)|every\s+\w+|the (whole|entire)\s+\w+|so much)\b", re.I)),
     ("Vague consequence", "Name the specific thing affected and how, or cut the sentence.",
      re.compile(r"(^|[.!?;,:]\s+|\band\s+|\bbut\s+)(that|this|which|it)\s+(really\s+|fundamentally\s+|deeply\s+|ultimately\s+)?(shapes?|changes?|defines?|drives?|transforms?|influences?|informs?|colou?rs?|underpins?|reshapes?|redefines?)\s+(how|what|the way|the ways|our|my|your|their)\b", re.I)),
+    ("Vague tail", "Cut it, or name the specific outcome the draft already states.",
+     re.compile(r"\b(the\s+)?((business|underlying|human|real)\s+)?(process(es)?|workflows?|story|stories|people|team|work|logic|intent|reasons?|context|journey|systems?)\s+behind\s+(it|them|this|that|each|every)\b|\b(the bigger picture|what (really |truly )?matters( most)?|the (customer|user|buyer) journey|the full (picture|story)|end-to-end experience)\b", re.I)),
     ("Quietly intensifier", "Say what's happening and how fast.",
      re.compile(r"\b(is|are|was|were|been)\s+quietly\s+\w+", re.I)),
     ("Setup question", "Delete the question; write the answer as a full sentence.",
