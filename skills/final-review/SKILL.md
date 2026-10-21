@@ -27,7 +27,7 @@ All paths are relative to this skill's folder.
 
 ## Step 1: Intake (scale it to the piece)
 
-Four things are needed: the draft, the channel (what it is and where it will be published), the reader, and the goal (what the reader should do or think afterwards). Optional references: a style guide, an audience or positioning document, the original brief, an example the user considers on-voice.
+Four things are needed: the draft, the channel (what it is and where it will be published), the reader, and the goal (what the reader should do or think afterwards). Note anything the user says the reader already knows; that is the only shared context the review assumes. Optional references: a style guide, an audience or positioning document, the original brief, an example the user considers on-voice.
 
 - **Short pieces** (a social post, an email, anything under about 400 words): infer channel, reader and goal from the draft and the conversation. Don't ask. State the inferences in the summary so the user can correct them. Ask only if the channel is unclear, since channel changes the rules.
 - **Long or high-stakes pieces** (client-facing, published web content, regulated topics): if the references aren't already in the conversation or project, ask once, in one message. Name the optional references, ask the channel, and ask whether it's web content meant for search or answer engines. Proceed with whatever arrives.
@@ -64,7 +64,7 @@ Do **not** give it the drafting conversation, your reasoning, or earlier version
 
 **The passes** (big problems before polish; don't line-edit a paragraph the first pass will cut):
 
-1. **Purpose and reader.** Does it answer the ask or brief? Is the point clear in the opening to the stated reader, at their level? Ask "what would make this measurably more effective for this reader?" and apply the answer. (`craft.md`: Lead with the point, Know the reader)
+1. **Purpose and reader.** Does it answer the ask or brief? Is the point clear in the opening to the stated reader, at their level? Ask "what would make this measurably more effective for this reader?" and apply the answer. Then read every sentence as that reader, knowing only what the draft and the user's references say: mark any sentence that depends on context the reader wasn't given, any fragment that doesn't parse, and any sentence that adds nothing. Restore context only from the sources; otherwise list it under Needs context. (`craft.md`: Lead with the point, Know the reader, Assumed context)
 2. **Argument and evidence.** Every claim grounded, causal links stated, claim strength matched to the evidence. An ungrounded claim goes to To-verify; the reviewer never supplies the missing number. (`craft.md`: Ground every claim, Thinking)
 3. **Structure.** Order, sections, lists, length. Rewrite every title, heading, section label and subject line to name the specific content beneath it. (`craft.md`: Titles, headings and section labels; Structure in formatted pieces; plus the channel section)
 4. **Voice and AI tells.** Resolve every scan hit and anything else in `ai-tells.md`. A pattern stays only if it's the plainest way to say the thing; log why.
@@ -102,6 +102,7 @@ Run on the revised draft. First rerun `scan.py` on it: edits introduce tells too
    - **Changes**, one line each, grouped by pass. For a short piece, the five that matter most.
    - **Still open**: must-fix vs nice-to-have
    - **To verify**: the single consolidated list; BLOCKING items first
+   - **Needs context**: each sentence that relies on something the reader wasn't told, with the question the author has to answer (omit if empty)
    - **Assumptions**: channel, reader and goal, if inferred rather than given
    - **New style rules** spotted this run, written as ready-to-paste style-guide lines
 

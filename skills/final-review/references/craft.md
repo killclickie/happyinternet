@@ -19,6 +19,24 @@ How good writing works. These are defaults: a user's style guide overrides any o
 - Know who the asset is for: prospects, customers, colleagues, the public. Internal notes stay out of public copy.
 - The test: would a smart, busy person with no context understand it and know what to do next? If not, restructure before wordsmithing.
 
+## Assumed context
+
+A sentence that leans on context the reader doesn't have reads as nonsense, however polished it sounds. AI drafts produce these constantly: they assume the reader knows a person, project, event or earlier step that never appears on the page.
+
+- **Only the author sets what the reader already knows.** Shared context counts when the user says so (in the brief, the stated audience or the conversation) or when the draft shows it (a newsletter to friends who know "Nash," an internal update to a team that knows the project codename). Never assume shared context on the author's behalf.
+- **Read every sentence as the stated reader**, with only the draft and the user's references in hand. Mark each one you have to reread, or can't follow without guessing.
+- **What to flag:**
+  - An unintroduced name, project, event, acronym or "the" thing ("the migration," "the incident," "after the pivot") the reader hasn't been told about.
+  - A leap: a conclusion that depends on a step or assumption that isn't stated.
+  - A fragment or compressed sentence that doesn't parse on first read ("Faster, then not." "Same story with ops.").
+  - A sentence that sounds meaningful but adds nothing, or only restates the one before it.
+- **What to do:**
+  - The missing context is in the draft, its sources or the user's references: restore it inline with the lightest edit (a short clause or appositive), or move the sentence after the context it depends on.
+  - The meaning is clear but the form is broken: rewrite the fragment as a full sentence.
+  - The sentence adds nothing: cut it (delete and reread).
+  - The missing context isn't available: never invent it. Leave the sentence and list it under **Needs context** in the summary, with the specific question the author has to answer ("Who is Mara, for a reader outside the team?").
+- When it's unclear whether the author or an AI wrote the assumption, flag it rather than cut it. The author's deliberate shorthand for a reader who shares it stays.
+
 ## Ground every claim
 
 - Every claim gets a number, an example, a comparison, a mechanism or a source. "Strong growth" says nothing; "revenue grew from €40k to €61k between Q1 and Q3" can be checked. The reviewer flags an ungrounded claim; only the author supplies the evidence.
