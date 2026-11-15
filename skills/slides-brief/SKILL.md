@@ -1,6 +1,6 @@
 ---
 name: slides-brief
-description: Plans and writes the content for a slide deck: slide-by-slide copy plus a style guide, ready to build in Claude's Slides artifacts or any slide tool. Use whenever the user wants to create, outline, plan or write the content for slides, a deck, a presentation, pitch deck, keynote, talk, webinar or workshop; turn a document, notes, transcript or outline into slides; decide what goes on each slide; or cut down or fix an existing deck. Use it before building any deck, including one built in Slides artifacts. Works for any deck: talks, team and board updates, investor pitches, sales and proposal decks, training and reports. Defaults to the 10/20/30 rule for presented decks: at most 10 slides, 20 minutes, no text under 30 points.
+description: Turns slide ideas, notes or documents into a tight deck, or cuts a bloated, text-heavy deck down to what the audience needs. Use when the user is planning, brainstorming, outlining or writing the content for slides, a deck, presentation, pitch deck, keynote, talk, webinar or workshop; wants to turn documents, a report, notes, a transcript or an outline into slides; or has an existing deck that is too long, too wordy or too text-heavy and wants it cut, tightened, simplified or made more engaging. Use it before building any deck, including in Claude's Slides artifacts. Produces slide-by-slide copy plus a style guide to build in Slides artifacts or any slide tool. Any deck type: talks, updates, pitches, proposals, training, reports. Defaults to the 10/20/30 rule for presented decks: at most 10 slides, 20 minutes, no text under 30 points.
 ---
 
 # Slides brief
@@ -9,10 +9,25 @@ Produces a downloadable `.md` brief: the style guide plus the copy for every sli
 
 The brief is meant for **Claude's Slides artifacts** (Artifacts → Slides), where Claude turns it into the finished deck. It also works with Claude Design or any other slide tool. If the user asks for the deck itself and a Slides artifact type is available in this session, build the deck from the brief instead of stopping at the file.
 
+## Two ways in
+
+**A. Building a deck from ideas or source material.** The user is brainstorming, outlining, or turning documents, a report, notes or a transcript into slides.
+1. If the material isn't an outline yet, propose one first: one line per slide, written as the takeaway headline, drawn only from the user's material and in the order it suits the deck type (Step 4). Below it, list what you left out of the material. Ask the user to approve or adjust it before writing the full brief.
+2. Choosing and condensing from the user's material is the job here. Adding claims, data or arguments they didn't give is not.
+3. Then run Steps 1 to 5.
+
+**B. Cutting an existing deck that's too long or text-heavy.** The user has a deck (PowerPoint, Google Slides, Keynote, PDF or pasted text) and wants it tighter or more engaging.
+1. Read every slide, including any speaker notes. Keep the deck's order and its visual style unless the user asks for changes (in Step 2, the existing deck is the style source).
+2. For each slide, find the one idea it carries and make it the headline. Cut every line the speaker will say aloud, repeats, and detail the audience doesn't need. Split a slide that carries two ideas; merge slides that repeat one.
+3. Never delete the user's material outright. For a presented deck, offer to move cut text into speaker notes. For a sent deck, offer an appendix.
+4. In the reply, add a cut summary: for each slide, words before and after, and what was cut. End with the deck's total words and slides before and after.
+5. If the user wants their own file edited rather than a brief, edit it in its own format (for a PowerPoint file, with the pptx skill if available) to the same standards.
+6. Then run Steps 3 to 5 on the cut copy.
+
 ## Step 1: Gather the inputs
 
 Needed:
-- **The content**: an outline, document, notes or transcript, or an existing deck to cut down or fix (read its slides and keep its order). Keep the user's wording and order. Don't add points, reframe them or justify them.
+- **The content**: ideas, an outline, documents, notes or a transcript (way A), or an existing deck to cut (way B). Keep the user's wording and order. Don't add points, reframe them or justify them.
 - **The audience**: who is in the room or will receive the deck, and what they already know.
 - **Deck type**: talk, update, pitch, proposal, training, report or other. It shapes the slide order (Step 4).
 - **Presented or sent**: will someone present this live, or will the deck be sent and read without a presenter? Ask if it isn't clear; the answer sets how much text goes on each slide (Step 3).

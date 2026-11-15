@@ -88,7 +88,7 @@ Your own style guide always wins over the defaults here, except for the integrit
 
 ## Brief a slide deck with the 10/20/30 rule
 
-Ask for a slide deck, a pitch deck or a presentation, or run `/slop-stopper:slides-brief`, with your outline or notes. It returns a `.md` brief with a style guide and the copy for every slide, to take into Claude's Slides artifacts (Artifacts → Slides) or any slide tool. It works for any deck: talks, team updates, pitches, proposals, training.
+Use it at either end of deck work. **Starting out:** brainstorming a talk, outlining a pitch, or turning documents, a report or notes into slides. It proposes a one-line-per-slide outline from your material for you to approve, then writes the slides. **Already have a deck that's too wordy:** share it and it cuts each slide to one idea, offers to move the cut text into speaker notes, and shows the words saved per slide. Ask for help with a deck in your own words, or run `/slop-stopper:slides-brief`. It returns a `.md` brief with a style guide and the copy for every slide, to take into Claude's Slides artifacts (Artifacts → Slides) or any slide tool. It works for any deck: talks, team updates, pitches, proposals, training.
 
 - **Presented decks** follow Guy Kawasaki's 10/20/30 rule: no more than 10 slides, 20 minutes, no text smaller than 30 points. Slide text is cut so the deck supports the speaker. Longer formats keep the other standards.
 - **Decks sent without a presenter** get the minimum extra text a reader needs to follow each slide alone, with nothing below 20 points.
