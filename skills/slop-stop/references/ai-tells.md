@@ -1,6 +1,6 @@
 # AI tells and formula
 
-Patterns that make writing read as machine-made or templated. Readers spot them in a line and stop trusting the rest. Each is banned by default. Keep one only when it's the plainest way to say the thing, and log why in the change log. `scripts/scan.py` flags most of these; the reviewer still reads for the ones a regex can't catch.
+Patterns that make writing read as machine-made or templated. Readers spot them in a line and stop trusting the rest. Each is banned by default. Keep one only when it's the plainest way to say the thing, and log why in the change log. `scan-patterns.md` holds the search patterns for most of these; the reviewer still reads for the ones a pattern can't catch.
 
 The fix is almost always the same: **delete the setup and state the point.**
 

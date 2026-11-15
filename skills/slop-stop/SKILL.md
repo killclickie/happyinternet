@@ -15,13 +15,13 @@ Returns an **improved draft** plus a short review summary, not a list of comment
 
 ## Files
 
-Read all four references on every run. Each rule lives in exactly one file.
+Read all five references on every run. Each rule lives in exactly one file.
 
 - `references/guardrails.md`: integrity. Never overridden.
 - `references/craft.md`: how good writing works. Structure, evidence, audience, plain language, asks, length, mechanics.
 - `references/ai-tells.md`: phrases and structures that make writing read as machine-made or templated, each with its fix.
 - `references/channels.md`: rules for one channel only (LinkedIn, other social, email, web and SEO/AEO, reports, formatted documents).
-- `scripts/scan.py`: deterministic scanner for the patterns in `ai-tells.md` plus channel limits. Python 3 standard library, no network.
+- `references/scan-patterns.md`: the search patterns, phrase lists, structural checks and channel limits for the scan in Step 2.
 
 All paths are relative to this skill's folder.
 
@@ -41,13 +41,9 @@ Set two modes from intake:
 
 ## Step 2: Scan
 
-Save the draft as plain text and run:
+Check the draft against `references/scan-patterns.md` for its channel. If you can run code, search the draft for its patterns; otherwise check it by hand against that file and `ai-tells.md`.
 
-```
-python3 scripts/scan.py draft.txt --channel <linkedin|x|threads|bluesky|instagram|email|web|doc>
-```
-
-The output lists each hit with its line number, the matched text and the fix. Hits are candidates, not verdicts: the reviewer decides. If Python is unavailable, the reviewer checks the draft against `ai-tells.md` by hand.
+List each hit with its line number, the matched text and the fix. Hits are candidates, not verdicts: the reviewer decides.
 
 ## Step 3: Clean-eyes review
 
@@ -81,7 +77,7 @@ Do **not** give it the drafting conversation, your reasoning, or earlier version
 
 ## Step 4: Validation gate (pass/fail)
 
-Run on the revised draft. First rerun `scan.py` on it: edits introduce tells too. Every remaining hit is either fixed or justified in the change log.
+Run on the revised draft. First rerun the scan on it: edits introduce tells too. Every remaining hit is either fixed or justified in the change log.
 
 | Check | Pass condition |
 |---|---|
@@ -90,7 +86,7 @@ Run on the revised draft. First rerun `scan.py` on it: edits introduce tells too
 | Numbers, math, dates | Recomputed; comparison periods and dates consistent |
 | Links, CTA, placeholders | No dummy URLs, bracketed placeholders or broken merge tokens in the body; CTA present and descriptive where the channel needs one |
 | Compliance | Required disclosures present for regulated topics (finance, health, legal, real estate and similar) |
-| Channel limits | Within the platform's character or length limits (`scan.py` reports them) |
+| Channel limits | Within the platform's character or length limits (`scan-patterns.md` lists them) |
 | Render | If delivered as a file, open or read it back and confirm it looks right; clean source is not proof |
 
 **Never ship** with an invented or unsourced claim, a wrong number, a compliance miss, a broken or placeholder link or CTA, a failed render, or a detail pulled from an unrelated source. Fix it, or list it at the top of To-verify marked **BLOCKING**.

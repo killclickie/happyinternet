@@ -21,7 +21,7 @@ I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts c
 ## Five steps from draft to publish-ready
 
 1. **Intake, scaled to the piece.** For a short post or email it infers the channel, reader and goal and tells you what it assumed. For long or high-stakes pieces it asks once for your style guide, audience notes or original brief. All optional.
-2. **Scan.** A small script flags known AI tells and formula patterns line by line, plus channel limits (LinkedIn's 3,000 characters and the preview before "see more," X, Threads, Bluesky, Instagram).
+2. **Scan.** A checklist of search patterns flags known AI tells and formula patterns line by line, plus channel limits (LinkedIn's 3,000 characters and the preview before "see more," X, Threads, Bluesky, Instagram).
 3. **Clean-eyes review.** A separate reviewer that never saw how the draft was written works through seven passes, biggest problems first: purpose and reader, argument and evidence, structure, voice and AI tells, channel rules, your style guide, line edit.
 4. **Validation gate.** Pass/fail checks on facts and claims, faithfulness to what you said, numbers and dates, links and calls to action, compliance disclosures, length limits and file rendering. It reruns the scan on its own edits.
 5. **Hand-back.** The revised draft in its original format, then a verdict, the biggest improvement, the changes, anything still open, and one consolidated "To verify" list.
@@ -95,7 +95,7 @@ Use it at either end of deck work. **Starting out:** brainstorming a talk, outli
 - **Style** comes from what you specify, then your brand guide or kit. If neither is available, it asks whose style to use (yours, your audience's, or a reference you like) and takes it from that organization's website or an existing deck.
 - **Copy** is written to Slop Stopper's rules, keeps your wording, and lists anything it cut.
 
-## Files: two skills, four rule sets, one scanner
+## Files: two skills and five reference files, no scripts
 
 ```
 skills/slop-stop/
@@ -104,7 +104,7 @@ skills/slop-stop/
   references/craft.md       how good writing works
   references/ai-tells.md    the AI-tell and formula patterns, each with its fix
   references/channels.md    LinkedIn, social, email, web and SEO/AEO, reports, documents
-  scripts/scan.py           the pattern scanner (Python 3 standard library)
+  references/scan-patterns.md  the search patterns and channel limits for the scan
 skills/slides-brief/
   SKILL.md                  deck brief workflow: style, 10/20/30 fit, copy, brief
 skills/final-review/
@@ -113,11 +113,11 @@ skills/final-review/
 
 ## Your drafts stay in your Claude session
 
-Slop Stopper runs entirely inside your Claude session. The scanner reads the draft file it's given and prints results; it makes no network calls and stores nothing. The plugin connects to no outside services.
+Slop Stopper runs entirely inside your Claude session. It contains only Markdown instructions, JSON settings and an icon: no scripts, no network calls, nothing stored. The plugin connects to no outside services.
 
 ## Report a missed tell or a false positive
 
-Spotted a tell it misses, or a false positive? Open an issue with the sentence and what it should have done. Pattern additions go in `references/ai-tells.md` and `scripts/scan.py` together.
+Spotted a tell it misses, or a false positive? Open an issue with the sentence and what it should have done. Pattern additions go in `references/ai-tells.md` and `references/scan-patterns.md` together.
 
 ## License: MIT with the Commons Clause (use and fork freely, don't sell)
 

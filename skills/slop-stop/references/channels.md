@@ -22,7 +22,7 @@ LinkedIn is where AI formula is most visible and most tiring to read. A post sho
 - **No Unicode bold or italic text.**
 - **Links**: one sentence on what the reader gets behind the link.
 - **Images**: add alt text.
-- **Length**: posts have a 3,000-character limit. Most strong posts are well under it. `scan.py` reports the count and the preview.
+- **Length**: posts have a 3,000-character limit. Most strong posts are well under it. The scan (`scan-patterns.md`) reports the count and the preview.
 - **The test**: would the author say this out loud to a respected colleague, in these words? If not, rewrite until they would.
 
 **Profile copy** (headline, About, experience)
@@ -32,7 +32,7 @@ LinkedIn is where AI formula is most visible and most tiring to read. A post sho
 
 ## Other social
 
-- **Limits**: X 280 characters on standard accounts, Threads 500, Bluesky 300, Instagram captions 2,200. `scan.py` checks them.
+- **Limits**: X 280 characters on standard accounts, Threads 500, Bluesky 300, Instagram captions 2,200. The scan (`scan-patterns.md`) checks them.
 - The first line carries the point.
 - LinkedIn's rules on engagement bait, emoji, Unicode text, humble brags and broetry apply here too.
 - Hashtags follow the platform's norms: few and specific; on Instagram they can sit in a separate block at the end.
