@@ -8,4 +8,4 @@ disable-model-invocation: true
 
 This skill is now called **slop-stop**. Run `/slop-stopper:slop-stop` next time.
 
-Read `../slop-stop/SKILL.md` and follow it exactly, from Step 1, on whatever the user asked to review or draft. Its reference files and scanner are in `../slop-stop/`.
+Load the **slop-stop** skill from this plugin and follow it exactly, from Step 1, on whatever the user asked to review or draft.

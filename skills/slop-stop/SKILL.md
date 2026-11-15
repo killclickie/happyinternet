@@ -1,6 +1,6 @@
 ---
 name: slop-stop
-description: Final edit for any writing: removes AI tells and slop, tightens the draft for its reader and checks facts before it ships. Use when the user wants to improve, edit, polish, tighten, rewrite, shorten, proofread, review or humanize a draft, especially one written by AI (ChatGPT, Claude, Gemini, Copilot); asks for no AI tells or no slop, to make it less AI, sound human or more concise; or asks for a final edit or final review (final-review). Also use when drafting a post, email, article, webpage, report, proposal, bio or essay that will be published or sent, then review the result. Not for code. For slide decks, use slides-brief, which applies these rules to slide copy.
+description: "Final edit for any writing: removes AI tells and slop, tightens the draft for its reader and checks facts before it ships. Use when the user wants to improve, edit, polish, tighten, rewrite, shorten, proofread, review or humanize a draft, especially one written by AI (ChatGPT, Claude, Gemini, Copilot); asks for no AI tells or no slop, to make it less AI, sound human or more concise; or asks for a final edit or final review (final-review). Also use when drafting a post, email, article, webpage, report, proposal, bio or essay that will be published or sent, then review the result. Not for code. For slide decks, use slides-brief, which applies these rules to slide copy."
 ---
 
 # Slop Stop
