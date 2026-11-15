@@ -4,6 +4,8 @@ Stop sounding like everyone else on the internet. We deserve better.
 
 Slop Stopper is a final review for anything you're about to publish or send: a LinkedIn post, an email, a blog post, a webpage, a report, a proposal. An independent reviewer reads your draft with clean eyes, removes AI tells and formulaic writing, improves structure and headings, tightens it for its real reader, and checks facts, numbers and links before you hit publish. You get back the improved draft and a short summary of what changed.
 
+It also includes **slides-brief**, which turns an outline into a slide-by-slide deck brief that follows the 10/20/30 rule: no more than 10 slides, 20 minutes, and no text smaller than 30 points.
+
 ## Why I built a plugin to stop AI slop
 
 I can't bear to read any more poor writing: the formulaic structures, the "it's not X, it's Y" reframes, the over-dramatized humble brags that AI cranks out for people every day.
@@ -28,20 +30,26 @@ I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts c
 
 ## AI tells it flags, from "it's not X, it's Y" to engagement bait
 
-- Contrast reframes: "It's not X, it's Y." "This isn't about X."
-- Setup questions and cliffhangers: "The catch?" "Honestly?" "Here's the thing:"
+- Binary contrasts: "It's not X. It's Y." "This isn't about X."
+- Throat-clearing openers and faux-insight setups: "Here's the thing," "Let me be clear," "What nobody tells you," "The part everyone misses"
+- Setup questions and cliffhangers: "The catch?" "Honestly?"
+- Superficial analysis and importance puffery: "...highlighting the team's commitment to innovation," "marks a pivotal moment," "a testament to"
+- Weasel attribution: "Experts agree," "Studies show"
+- Synonym cycling: "The agent handles your email. The assistant drafts replies."
+- Fake-profound endings: "The future isn't coming. It's already here."
+- Filler "named": "named studies," "named authors attached to the study"
 - Humble brags and announcement inflation: "Humbled to announce." "I don't take that for granted."
 - Performed epiphanies: "That's when it hit me."
 - Vague consequences and inflated scope: "That shapes how we work." "It changes everything."
 - Lines your intended reader would stall on, even knowing the field: a new subject with no setting, an outcome with no "how", a vague tail like "the business process behind it". It fixes them from your sources or asks you; it never invents the missing piece.
 - Filler that points back at earlier ideas without adding meaning: "Across all of it," "With that in mind," "As mentioned above"
-- Colon-label setups standing in for sentences: "My first project: ..." "The result: ..."
-- Stacked negations and runs of dramatic fragments: "No delays. No excuses. No limits."
+- Colon reveals standing in for sentences: "The best part: it learns." "The result: ..."
+- Stacked negations and dramatic fragments: "No delays. No excuses. No limits." "That's it. That's the whole thing."
 - LinkedIn broetry, engagement bait ("Agree?"), hashtag piles and emoji bullets
 - Em dashes, filler adverbs, hedges and the usual AI vocabulary (delve, leverage, seamless, unlock)
 - Ungrounded claims, numbers with no reference point, buried asks, recommendations with no tradeoff
 
-It also brings general craft rules: lead with the point, write up to a knowledgeable reader, ground every claim, name the tradeoff, keep asks specific, cut every sentence that doesn't earn its place. Channel rules cover LinkedIn posts and profiles, other social platforms, email, web and SEO/AEO content, reports and formatted documents.
+It also brings general craft rules: lead with the point, use active voice, untangle hard-to-follow sentences, prefer concrete details over abstractions, write up to a knowledgeable reader, ground every claim, name the tradeoff, keep asks specific, cut every sentence that doesn't earn its place. Channel rules cover LinkedIn posts and profiles, other social platforms, email, web and SEO/AEO content, reports and formatted documents.
 
 ## Before and after: a LinkedIn job announcement
 
@@ -74,20 +82,33 @@ After:
 
 ## Run a review on any draft
 
-Say "run a final review on this" and paste, attach or link your draft. Or run `/slop-stopper:final-review`. You can also point Claude at it while drafting something new ("write this LinkedIn post using Slop Stopper's rules"); it writes to the same rules, then reviews its own draft with clean eyes. Tell it where the piece is going (LinkedIn, an email, a client report) for the sharpest result.
+Say "run a final review on this," "remove the AI tells," "clean up the slop" or "proofread this," and paste, attach or link your draft. Or run `/slop-stopper:slop-stop`. (The skill used to be called `final-review`; that name still works.) You can also point Claude at it while drafting something new ("write this LinkedIn post using Slop Stopper's rules"); it writes to the same rules, then reviews its own draft with clean eyes. Tell it where the piece is going (LinkedIn, an email, a client report) for the sharpest result.
 
 Your own style guide always wins over the defaults here, except for the integrity rules: it never invents.
 
-## Files: one skill, four rule sets, one scanner
+## Brief a slide deck with the 10/20/30 rule
+
+Ask for a slide deck, a pitch deck or a presentation, or run `/slop-stopper:slides-brief`, with your outline or notes. It returns a `.md` brief with a style guide and the copy for every slide, to take into Claude's Slides artifacts (Artifacts → Slides) or any slide tool. It works for any deck: talks, team updates, pitches, proposals, training.
+
+- **Presented decks** follow Guy Kawasaki's 10/20/30 rule: no more than 10 slides, 20 minutes, no text smaller than 30 points. Slide text is cut so the deck supports the speaker. Longer formats keep the other standards.
+- **Decks sent without a presenter** get the minimum extra text a reader needs to follow each slide alone, with nothing below 20 points.
+- **Style** comes from what you specify, then your brand guide or kit, then the website or existing deck of the organization the deck represents. If none of those is available, it asks you.
+- **Copy** is written to Slop Stopper's rules, keeps your wording, and lists anything it cut.
+
+## Files: two skills, four rule sets, one scanner
 
 ```
-skills/final-review/
+skills/slop-stop/
   SKILL.md                  the workflow: intake, scan, review, gate, hand-back
   references/guardrails.md  integrity rules (never invent, never embellish)
   references/craft.md       how good writing works
   references/ai-tells.md    the AI-tell and formula patterns, each with its fix
   references/channels.md    LinkedIn, social, email, web and SEO/AEO, reports, documents
   scripts/scan.py           the pattern scanner (Python 3 standard library)
+skills/slides-brief/
+  SKILL.md                  deck brief workflow: style, 10/20/30 fit, copy, brief
+skills/final-review/
+  SKILL.md                  the old name, kept so it still opens slop-stop
 ```
 
 ## Your drafts stay in your Claude session
