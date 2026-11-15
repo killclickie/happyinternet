@@ -1,6 +1,6 @@
 ---
 name: slides-brief
-description: Turns slide ideas, notes or documents into a tight deck, or cuts a bloated, text-heavy deck down to what the audience needs. Use when the user is planning, brainstorming, outlining or writing the content for slides, a deck, presentation, pitch deck, keynote, talk, webinar or workshop; wants to turn documents, a report, notes, a transcript or an outline into slides; or has an existing deck that is too long, too wordy or too text-heavy and wants it cut, tightened, simplified or made more engaging. Use it before building any deck, including in Claude's Slides artifacts. Produces slide-by-slide copy plus a style guide to build in Slides artifacts or any slide tool. Any deck type: talks, updates, pitches, proposals, training, reports. Defaults to the 10/20/30 rule for presented decks: at most 10 slides, 20 minutes, no text under 30 points.
+description: Turns slide ideas, notes or documents into a tight deck, or cuts a bloated, text-heavy deck down to what the audience needs. Use when the user is planning, brainstorming, outlining or writing the content for slides, a deck, presentation, pitch deck, keynote, talk, webinar or workshop; wants to turn documents, a report, notes, a transcript or an outline into slides; or has an existing deck that is too long, too wordy or too text-heavy and wants it cut, tightened, simplified or made more engaging. Use it before building any deck, including in Claude's Slides artifacts. Produces slide-by-slide copy plus a style guide to build in Slides artifacts or any slide tool. Any deck type: talks, updates, pitches, proposals, training, reports. Defaults to a 10/20/30 rule adapted from Guy Kawasaki's for presented decks: at most 10 slides, no text under 20 points, no longer than 30 minutes.
 ---
 
 # Slides brief
@@ -41,17 +41,17 @@ Use the first source that's available, in this order:
 
 1. **Styling the user specifies** in the request.
 2. **An existing brand guide, brand kit or design system** for the organization the deck represents: an attached file, a project document, a design-system artifact, or a connected drive.
-3. **The organization's own visual style.** Use the organization the user works for or represents; when the deck is tailored to a client or partner and the user wants it in their brand, use the organization being presented to. If it's unclear which, ask one question. Take the style from its website (with a browser tool, read the computed font family, weight, size and colour of headings, body text and buttons; tally background and text colours; take one screenshot for signature details; decline non-essential cookies; close the tab when done) or from an existing deck or PDF by that organization.
-4. **Ask the user** for colours, fonts, or a reference deck or site they like. If no answer is possible, use a plain, high-contrast default (one sans-serif Google Font, a dark text colour, one accent) and say so in the reply.
+3. **Ask the user** which style to use: their own organization's, the organization they're presenting to, or colours, fonts or a reference deck or site they like. Then take that organization's style from its website (with a browser tool, read the computed font family, weight, size and colour of headings, body text and buttons; tally background and text colours; take one screenshot for signature details; decline non-essential cookies; close the tab when done) or from an existing deck or PDF by that organization.
+4. If no answer is possible, use a plain, high-contrast default (one sans-serif Google Font, a dark text colour, one accent) and say so in the reply.
 
 Record fonts (family, weights), a colour table (role and hex value for each colour) and any signature visual details.
 
 ## Step 3: Fit the deck to its format
 
-**Presented live (default): the 10/20/30 rule.**
+**Presented live (default): the 10/20/30 rule**, adapted from Guy Kawasaki's (his original is 10 slides, 20 minutes, 30-point type).
 - **No more than 10 slides.**
-- **Built for 20 minutes** of talking, leaving time for discussion in a longer slot.
-- **No text smaller than 30 points.**
+- **No text smaller than 20 points**, with body text at 30–36 points by default.
+- **No longer than 30 minutes.**
 
 The deck supports the conversation; it doesn't carry it. One idea per slide. Cut every line the speaker will say aloud. A slide should be readable in the time it takes to glance at it.
 
@@ -97,7 +97,7 @@ Nothing else.
 ## Size, type, contrast and image standards
 
 - **Slide size:** 16:9 at 13.33 × 7.5 inches (1920 × 1080 px canvas, so 1 pt = 2 px).
-- **Type (presented):** headlines 44–60 pt (88–120 px); body 30–36 pt (60–72 px); nothing below 30 pt.
+- **Type (presented):** headlines 44–60 pt (88–120 px); body 30–36 pt (60–72 px); nothing below 20 pt (40 px), which is kept for source lines and labels.
 - **Type (sent):** headlines 36–48 pt; body 20–28 pt; nothing below 20 pt.
 - **Contrast:** at least 4.5:1 for body text and 3:1 for large headlines. Light brand accents used as text get a darker variant. Never carry meaning with colour alone.
 - **Fonts:** the brand's fonts; otherwise Google Fonts, so the deck renders in Google Slides, PowerPoint and Keynote.

@@ -4,7 +4,7 @@ Stop sounding like everyone else on the internet. We deserve better.
 
 Slop Stopper is a final review for anything you're about to publish or send: a LinkedIn post, an email, a blog post, a webpage, a report, a proposal. An independent reviewer reads your draft with clean eyes, removes AI tells and formulaic writing, improves structure and headings, tightens it for its real reader, and checks facts, numbers and links before you hit publish. You get back the improved draft and a short summary of what changed.
 
-It also includes **slides-brief**, which turns an outline into a slide-by-slide deck brief that follows the 10/20/30 rule: no more than 10 slides, 20 minutes, and no text smaller than 30 points.
+It also includes **slides-brief**, which turns an outline into a slide-by-slide deck brief that follows a 10/20/30 rule adapted from Guy Kawasaki's: no more than 10 slides, no text smaller than 20 points, and no longer than 30 minutes.
 
 ## Why I built a plugin to stop AI slop
 
@@ -90,9 +90,9 @@ Your own style guide always wins over the defaults here, except for the integrit
 
 Use it at either end of deck work. **Starting out:** brainstorming a talk, outlining a pitch, or turning documents, a report or notes into slides. It proposes a one-line-per-slide outline from your material for you to approve, then writes the slides. **Already have a deck that's too wordy:** share it and it cuts each slide to one idea, offers to move the cut text into speaker notes, and shows the words saved per slide. Ask for help with a deck in your own words, or run `/slop-stopper:slides-brief`. It returns a `.md` brief with a style guide and the copy for every slide, to take into Claude's Slides artifacts (Artifacts → Slides) or any slide tool. It works for any deck: talks, team updates, pitches, proposals, training.
 
-- **Presented decks** follow Guy Kawasaki's 10/20/30 rule: no more than 10 slides, 20 minutes, no text smaller than 30 points. Slide text is cut so the deck supports the speaker. Longer formats keep the other standards.
+- **Presented decks** follow a 10/20/30 rule adapted from Guy Kawasaki's: no more than 10 slides, no text smaller than 20 points (body text defaults to 30–36), no longer than 30 minutes. Slide text is cut so the deck supports the speaker. Longer formats keep the other standards.
 - **Decks sent without a presenter** get the minimum extra text a reader needs to follow each slide alone, with nothing below 20 points.
-- **Style** comes from what you specify, then your brand guide or kit, then the website or existing deck of the organization the deck represents. If none of those is available, it asks you.
+- **Style** comes from what you specify, then your brand guide or kit. If neither is available, it asks whose style to use (yours, your audience's, or a reference you like) and takes it from that organization's website or an existing deck.
 - **Copy** is written to Slop Stopper's rules, keeps your wording, and lists anything it cut.
 
 ## Files: two skills, four rule sets, one scanner
