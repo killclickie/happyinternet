@@ -1,6 +1,6 @@
 ---
 name: slides-brief
-description: Turns an outline, document or notes into a slide-by-slide deck brief (style guide plus copy for every slide) to build in Claude's Slides artifacts or any slide tool. Works for any deck: talks, keynotes, team and board updates, investor pitches, sales and proposal decks, training, workshops and reports. Defaults to Guy Kawasaki's 10/20/30 rule (no more than 10 slides, 20 minutes, no text smaller than 30 points) for decks that are presented, and cuts slide text so the deck supports the speaker. Uses the user's brand guide or kit when there is one. Use when the user asks for a slide deck, presentation, slides, pitch deck, keynote, or a deck brief.
+description: Plans and writes the content for a slide deck: slide-by-slide copy plus a style guide, ready to build in Claude's Slides artifacts or any slide tool. Use whenever the user wants to create, outline, plan or write the content for slides, a deck, a presentation, pitch deck, keynote, talk, webinar or workshop; turn a document, notes, transcript or outline into slides; decide what goes on each slide; or cut down or fix an existing deck. Use it before building any deck, including one built in Slides artifacts. Works for any deck: talks, team and board updates, investor pitches, sales and proposal decks, training and reports. Defaults to the 10/20/30 rule for presented decks: at most 10 slides, 20 minutes, no text under 30 points.
 ---
 
 # Slides brief
@@ -12,7 +12,7 @@ The brief is meant for **Claude's Slides artifacts** (Artifacts → Slides), whe
 ## Step 1: Gather the inputs
 
 Needed:
-- **The content**: an outline, document, notes or transcript. Keep the user's wording and order. Don't add points, reframe them or justify them.
+- **The content**: an outline, document, notes or transcript, or an existing deck to cut down or fix (read its slides and keep its order). Keep the user's wording and order. Don't add points, reframe them or justify them.
 - **The audience**: who is in the room or will receive the deck, and what they already know.
 - **Deck type**: talk, update, pitch, proposal, training, report or other. It shapes the slide order (Step 4).
 - **Presented or sent**: will someone present this live, or will the deck be sent and read without a presenter? Ask if it isn't clear; the answer sets how much text goes on each slide (Step 3).
