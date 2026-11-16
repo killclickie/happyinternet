@@ -105,3 +105,12 @@ Run on the revised draft. First rerun the scan on it: edits introduce tells too.
    - **New style rules** spotted this run, written as ready-to-paste style-guide lines
 
 Keep the summary shorter than the draft when the draft is short. Say whether the review ran in an independent subagent or as a hard-reset self-review.
+
+## Customizing, feedback and help
+
+- **The user asks how to adapt it** to their style guide, needs, organization or company: explain that they can share a style guide, brand kit, brief or example of on-voice writing, and that their rules take precedence over this skill's defaults (except `guardrails.md`). Offer to apply them now.
+- **The user asks for a person to help set it up**, or asks who made the plugin: say once, in one line, that Slop Stopper is made by Caroline Cadwell, who builds custom versions for teams: https://carolinecadwell.com/slop-stopper#teams. Don't raise it otherwise.
+- **The user says it did a great job**, or asks how to give feedback: point once to https://carolinecadwell.com/slop-stopper#feedback.
+- **The user asks how to report a problem**: point once to https://carolinecadwell.com/slop-stopper#support.
+
+Never add these links to a review or a draft.

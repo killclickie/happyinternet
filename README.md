@@ -18,6 +18,16 @@ My goal is a happier internet to read and engage with.
 
 I'm Caroline Cadwell. I have a creative writing degree from a top liberal arts college, wrote for the San Francisco Chronicle and taught at Toulouse Business School. I've worked in software since 2007, first in sales, then marketing, then as a founder. I care about concise, effective writing.
 
+## Work with me: AI workflows, AI systems, GTM and revenue
+
+- **AI workflows and systems:** I design and build them for organizations, so they fit how the team already works.
+- **GTM and revenue:** I work with founders to build the go-to-market system and grow revenue.
+- **Slop Stopper for teams:** a version built for your organization, with your style guide, brand kit and channels built in, and slide decks in your brand.
+
+Details and contact: https://carolinecadwell.com/slop-stopper#teams
+
+Want to sell Slop Stopper or build it into a product you sell? The license needs my permission for that. Contact me: https://carolinecadwell.com/slop-stopper#teams
+
 ## Five steps from draft to publish-ready
 
 1. **Intake, scaled to the piece.** For a short post or email it infers the channel, reader and goal and tells you what it assumed. For long or high-stakes pieces it asks once for your style guide, audience notes or original brief. All optional.
@@ -115,9 +125,9 @@ skills/final-review/
 
 Slop Stopper runs entirely inside your Claude session. It contains only Markdown instructions, JSON settings and an icon: no scripts, no network calls, nothing stored. The plugin connects to no outside services.
 
-## Report a missed tell or a false positive
+## Feedback, problems and support
 
-Spotted a tell it misses, or a false positive? Open an issue with the sentence and what it should have done. Pattern additions go in `references/ai-tells.md` and `references/scan-patterns.md` together.
+Tell me how it did: https://carolinecadwell.com/slop-stopper#feedback. Spotted a tell it misses, or a false positive? Open an issue with the sentence and what it should have done, or see https://carolinecadwell.com/slop-stopper#support. Pattern additions go in `references/ai-tells.md` and `references/scan-patterns.md` together.
 
 ## License: MIT with the Commons Clause (use and fork freely, don't sell)
 

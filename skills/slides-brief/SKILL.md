@@ -86,13 +86,18 @@ Sections:
 
 Save it as `<topic>-slides-brief.md` and send it as a file.
 
-In the reply:
+Before saving, confirm the contents with the user: show the slide count, each slide's headline, presented or sent, and where the style came from. Apply any changes they ask for.
+
+Then save it and send it. In the reply:
 - One line describing the file.
 - Any cuts made to the user's text, any placeholders to fill, and where the style came from.
-- How to turn it into the deck. Say it plainly, for example:
-  > **Build your deck from this brief:** in Claude, go to Artifacts → Slides and start a new deck. Attach this file (or paste its contents) and ask Claude to "build this deck exactly as briefed." Edit any slide right there in the Slides editor, or ask Claude for changes. When it's done, download it as PowerPoint or PDF, or share the link.
+- Two questions: "Want me to build the deck now?" and "Is it for PowerPoint, Google Slides or something else?"
 
-Nothing else.
+## Step 6: Build the deck (only if the user says yes)
+
+- **If the Slides artifact type is available in this session**, create the deck from it in this conversation, from the brief. Use the brief's style; if the style came from the user's design system, use that design system. Keep the copy exactly as briefed. If text doesn't fit at the specified sizes, flag it rather than shrink the type.
+- **If it isn't available**, tell the user: "Take this .md file to Artifacts, select Slides, and attach it. It has everything needed to build the deck, with no other action needed."
+
 
 ## Size, type, contrast and image standards
 
@@ -110,3 +115,5 @@ Nothing else.
 - Add strategy, recommendations or rationale the user didn't give.
 - Regroup or reorder the user's sections without saying so.
 - Shrink type to fit text. Cut the text or flag it.
+
+For customizing, feedback and help, follow the same rules as slop-stop (its section "Customizing, feedback and help"), with the same links to https://carolinecadwell.com/slop-stopper.
